@@ -29,10 +29,10 @@ export {
   glob as globby,
 } from './vendor.ts'
 
-export const VERSION: string = fs.readJsonSync(
-  new URL('../package.json', import.meta.url)
-).version
-export const version: string = VERSION
+// export const VERSION: string = fs.readJsonSync(
+//   new URL('../package.json', import.meta.url)
+// ).version
+// export const version: string = VERSION
 
 export {
   type Duration,
