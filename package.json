@@ -145,9 +145,6 @@
       "esbuild": "$esbuild"
     }
   },
-  "publishConfig": {
-    "registry": "https://wombat-dressing-room.appspot.com"
-  },
   "keywords": [
     "shell",
     "script",
